@@ -1,0 +1,752 @@
+<!-- RickyJ,26/8/2021,INDEX.HTML,THE PAGE WILL CONSIST OF THE gallery page -->
+<!-- tags taken into consideration include title, article, section, head, header, html, body, footer, nav, and doctype-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>Mardin NGO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+
+
+ <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg12 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg123 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg1234 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg12345 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg1:hover {opacity: 0.7;}
+#myImg12:hover {opacity: 0.7;}
+#myImg123:hover {opacity: 0.7;}
+#myImg1234:hover {opacity: 0.7;}
+#myImg12345:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal12 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal123 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal1234 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal12345 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content12 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content123 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content1234{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content12345 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#caption12 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#caption123 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#caption1234 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#caption12345 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content1, #caption1 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content12, #caption12 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content123, #caption123 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content1234, #caption1234 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.modal-content12345, #caption12345 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close1 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close12 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close123 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close1234 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close12345 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close12:hover,
+.close12:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close123:hover,
+.close123:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close1234:hover,
+.close1234:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close12345:hover,
+.close12345:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content123 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content1234 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content1235 {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+	<section class="header">
+        <h2 style="text-align: center;color: #fff;">Mardin NGO</h2>
+		<nav>
+			<header><a href="index.htm"><p><img src="images/logo.png" alt="image" style="height: 20px;width: 30px;"><span style="color: #fff;">Mardin NGO</span></p></a></header>
+			<div class="topnav" id="myTopnav">
+				
+				<a href="index.htm" >Home</a>
+				<a href="aboutus.html">ABOUT US</a>
+				<a href="services.html">SERVICES</a>
+				<a class="active" href="gallery.html">GALLERY</a>
+				<a href="contactus.html">CONTACT US</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				  <i class="fa fa-bars"></i>
+				</a>
+		
+			  </div>
+		
+		</nav>
+		<div class="text-box"> 
+			<h2>The Best Ngo In India</h2>
+			<article><h2>We are one of the best NGO in Asian and India</h2></article>
+			<a href="aboutus.html" class="hero-btn">Visit Us to Know More</a>
+            </div>
+	</section>
+    <!--gallery starts here-->
+	<section>
+		<h2 style="text-align:center">Our Gallery</h2>
+	<div class="gallery">
+	  <div class="column">
+	    <div class="item">
+	      
+	        <img id="myImg" src="images/image1.jpg" class="img" alt="img">
+	      
+	       <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" src="images/image1.jpg" alt="img">
+  <div id="caption"></div>
+</div>
+	      
+	    </div>
+	   
+	    <div class="item">
+	    	 
+	        <img id="myImg1" src="images/image2.jpg" class="img" alt="img">
+	     <!-- The Modal -->
+<div id="myModal1" class="modal1">
+  <span class="close1">&times;</span>
+  <img class="modal-content1" id="img011"  src="images/image2.jpg" alt="img">
+  <div id="caption1"></div>
+</div>
+	      	
+	    </div>
+	  </div>
+	  <div class="column">
+	    <div class="item">
+	     
+	        <img id="myImg12" src="images/image3.jpg" class="img" alt="img">
+	       <!-- The Modal -->
+<div id="myModal12" class="modal12">
+  <span class="close12">&times;</span>
+  <img class="modal-content12" id="img0112" src="images/image3.jpg" alt="img">
+  <div id="caption12"></div>
+</div>
+	      	
+	    </div>
+	    
+	    <div class="item">
+	     
+	        <img id="myImg123"  src= "images/image4.jpg" class="img" alt="img">
+	       
+	       <!-- The Modal -->
+<div id="myModal123" class="modal123">
+  <span class="close123">&times;</span>
+  <img class="modal-content123" id="img01123" src= "images/image4.jpg" alt="img">
+  <div id="caption123"></div>
+</div>
+	    </div>
+	  </div>
+	  <div class="column">
+	    <div class="item">
+	      
+	        <img id="myImg1234" src="images/image5.jpg" class="img" alt="img">
+	      
+	      <!-- The Modal -->
+<div id="myModal1234" class="modal1234">
+  <span class="close1234">&times;</span>
+  <img class="modal-content1234" id="img011234" src="images/image5.jpg" alt="img">
+  <div id="caption1234"></div>
+</div>
+
+	    </div>
+	    
+	    <div class="item">
+	      
+	        <img id="myImg12345" src="images/image6.jpg" class="img" alt="img">
+	       
+
+<!-- The Modal -->
+<div id="myModal12345" class="modal12345">
+  <span class="close12345">&times;</span>
+  <img class="modal-content12345" id="img0112345" src="images/image6.jpg" alt="img">
+  <div id="caption12345"></div>
+</div>
+
+	    </div>
+	  </div>
+	</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Get the modal1
+var modal = document.getElementById("myModal1");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img011");
+var captionText = document.getElementById("caption1");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Get the modal12
+var modal = document.getElementById("myModal12");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg12");
+var modalImg = document.getElementById("img0112");
+var captionText = document.getElementById("caption12");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close12")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Get the modal123
+var modal = document.getElementById("myModal123");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg123");
+var modalImg = document.getElementById("img01123");
+var captionText = document.getElementById("caption123");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close123")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+
+// Get the modal1234
+var modal = document.getElementById("myModal1234");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1234");
+var modalImg = document.getElementById("img011234");
+var captionText = document.getElementById("caption1234");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1234")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+
+// Get the modal12345
+var modal = document.getElementById("myModal12345");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg12345");
+var modalImg = document.getElementById("img0112345");
+var captionText = document.getElementById("caption12345");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close12345")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+</script>
+
+
+	</section><!--end of gallery-->
+    <!--audio and video-->
+    <section>
+		<h2 style="text-align:center">Our Videos,Audios and Testimonials</h2>
+			<audio controls>
+					
+					  <source src="chalo_chalein_mp3_50463.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+      </audio>
+			<video width="600" height="240" controls>
+						  <source src="images/video.mp4" type="video/mp4">
+						 
+						 Your browser does not support the video tag.
+       </video>
+       <video width="600" height="240" controls>
+						  <source src="images/video.mp4" type="video/mp4">
+						 
+						 Your browser does not support the video tag.
+       </video>
+
+	</section>
+<!--footer starts here-->
+
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">MARDIN NGO</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+        <a href="tel:2345-0010000">2345-0010000</a><br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Home</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="aboutus.html">ABOUT US</a>
+        </li>
+
+        <li>
+          <a href="services.html">SERVICES</a>
+        </li>
+            
+        <li>
+          <a href="gallery.html">GALLERY</a>
+        </li>
+        <li>
+          <a href="contactus.html">CONTACT US</a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+  <div class="legal">
+    <p>&copy; 2021 Mardin NGO. All rights reserved.</p>
+    </div>
+</footer><!--footer ends here-->
+</body>
+</html>
